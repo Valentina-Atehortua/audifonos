@@ -23,30 +23,34 @@
     height: 50vh;
     width: 70%;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
+    justify-content: flex-end;
 }
 .p1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
+    font-weight: bolder;
 }
 .p2{
     font-size: 7rem;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(90deg, green, blue);
+    font-weight: bolder;
     color: transparent;
     background-clip: text;
 }
 .p3{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 50;
+    width: 40%;
 }
 .p4{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: 20px;
+    font-weight: bolder;
 }
 .p-4{
     font-size: 40px;
@@ -106,23 +110,23 @@
 }
 .section3{
     width: 100%;
-    height: 80vh;
+    height: 40vh;
     background-image: url(../img-audifonos/imagen-mujer.jpg);
     background-size: cover;
 }
 .azul{
-    height: 80vh;
+    height: 40vh;
     width: 50%;
     background-color: rgb(45, 111, 141);
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 .azul1{
     height: 10vh;
-    width: 90%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,33 +134,37 @@
 }
 .t1{
     font-size: 40px;
+    font-weight: bolder;
 }
 .t2{
     font-size: 20px;
+    width: 95%;
 }
 .section4{
     width: 100%;
-    height: 90vh;
+    height: 60vh;
     background-color: white;
 }
 .divpre{
     width: 100%;
-    height: 80vh;
+    height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
+    gap: 20rem;
 }
 .divc{
     width: 30%;
-    height: 80vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     gap: 3rem;
     justify-content: center;
     align-items: center;
+    
 }
 .imgx{
-    width: 50%;
+    width: 40%;
     
 }
 .x{
@@ -166,15 +174,16 @@
     align-items: center;
 }
 .divy{
-    width: 120%;
-    height: 25vh;
+    width: 100%;
+    height: 15vh;
     display: flex;
     background-color: rgb(209, 199, 199);
     padding: 1% 5% 5% 5% ;
+    border-radius: 20px;
 }
 .text1{
     width: 80%;
-    height: 25vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,7 +191,7 @@
 }
 .divv{
     width: 30%;
-    height: 80vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -190,11 +199,12 @@
     align-items: center;
 }
 .divvv{
-    width: 120%;
-    height: 60vh;
+    width: 100%;
+    height: 36vh;
     display: flex;
     background-color: rgb(45, 111, 141);
     padding: 1% 5% 5% 5% ;
+    border-radius: 20px;
 }
 .text2{
     width: 80%;
@@ -234,11 +244,12 @@
     color: white;
 }
 .p-2{
-    height: 20vh;
+    height: 10vh;
     display: flex;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(90deg, green, blue);
+    background: linear-gradient(90deg, rgb(132, 204, 132), rgb(70, 182, 193));
+    font-weight: bolder;
     color: transparent;
     background-clip: text;
     justify-content: center;
@@ -246,7 +257,7 @@
 }
 .section5{
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     background-color: white;
     margin-top: 5%;
 }
@@ -263,12 +274,36 @@
 }
 .audio{
     width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .formulario{
     width: 100%;
-    padding: 12px 50px;
+    height: 10vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .input{
     width: 150%;
     padding: 12px 20px;
+}
+.textos-audio{
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.input-text{
+    width: 100%;
+    height: 3vh;
+}
+.boton{
+    width: 100%;
+    height: 4vh;
 }
