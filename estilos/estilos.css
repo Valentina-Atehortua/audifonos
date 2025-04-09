@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+}
+.div-general{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.img1{
+    height: 30vh;
+}
+.img-1{
+    height: 50vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.p2{
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, green, blue);
+    color: transparent;
+    background-clip: text;
+}
+.p3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50;
+}
+.p4{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 20px;
+}
+.p-4{
+    font-size: 40px;
+}
+.section2{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto{
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.img2{
+    height: 8vh;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+.pa1{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 60%;
+}
+.pa2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(45, 111, 141);
+}
+.section3{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img-audifonos/imagen-mujer.jpg);
+    background-size: cover;
+}
+.azul{
+    height: 80vh;
+    width: 50%;
+    background-color: rgb(45, 111, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.azul1{
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+.t1{
+    font-size: 40px;
+}
+.t2{
+    font-size: 20px;
+}
+.section4{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+.divpre{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.divc{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.imgx{
+    width: 50%;
+    
+}
+.x{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.divy{
+    width: 120%;
+    height: 25vh;
+    display: flex;
+    background-color: rgb(209, 199, 199);
+    padding: 1% 5% 5% 5% ;
+}
+.text1{
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.divv{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.divvv{
+    width: 120%;
+    height: 60vh;
+    display: flex;
+    background-color: rgb(45, 111, 141);
+    padding: 1% 5% 5% 5% ;
+}
+.text2{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.y{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.imgy{
+    width: 80%;
+}
+.parr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(45, 111, 141);
+}
+.parr1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(45, 111, 141);
+}
+.parrr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.parrr1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.p-2{
+    height: 20vh;
+    display: flex;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, green, blue);
+    color: transparent;
+    background-clip: text;
+    justify-content: center;
+    align-items: center;
+}
+.section5{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    margin-top: 5%;
+}
+.new{
+    height: 80vh;
+    width: 98%;
+}
+.new1{
+    height: 80vh;
+}
+.audi{
+    width: 100%;
+    display: flex;
+}
+.audio{
+    width: 60%;
+}
+.formulario{
+    width: 100%;
+    padding: 12px 50px;
+}
+.input{
+    width: 150%;
+    padding: 12px 20px;
+}
