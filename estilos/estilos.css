@@ -621,7 +621,7 @@
     }
     .section5{
         width: 100%;
-        height: 40vh;
+        height: 100vh;
         background-color: white;
     }
     .new{
@@ -649,14 +649,14 @@
     .formulario{
         width: 100%;
         height: 10vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     
     }
     .formulari{
+        width: 100%;
         margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .input{
         width: 150%;
@@ -676,10 +676,11 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
         padding: 1%;
+        display: flex;
     }
     .boton{
         width: 103%;
-        height: 4vh;
+        height: 7vh;
         background-color: rgb(45, 111, 141);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
@@ -689,11 +690,12 @@
     .parr2{
         width: 110%;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
+        font-size: 15px;
+        font-weight: 0%;
     }
     .parr3{
         width: 50%;
-        font-size: 15px;
+        font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bolder;
     }
@@ -702,11 +704,11 @@
         height: 8vh;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(45, 111, 141);
-        margin-top: 580px;
+        margin-top: 2px;
     }
 
 }
